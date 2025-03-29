@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  helloWorld: String!
+
+  """A random number between 0 and 100"""
+  randomNumber: Float!
+
+  """A random number between 0 and limit"""
+  randoNumberFromZeroTo(limit: Int): Float!
+}
